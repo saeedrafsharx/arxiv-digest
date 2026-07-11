@@ -1,5 +1,5 @@
 import feedparser
-from .models import Paper
+from models import Paper
 from typing import List
 
 def parse_xml(raw_xml: str) -> List[Paper]:
@@ -10,7 +10,7 @@ def parse_xml(raw_xml: str) -> List[Paper]:
     for entry in feed.entries:
         paper = Paper(
             title=entry.get("title", "").strip(),
-            authors=entry.get("authors", "").strip(),
+            authors=str(entry.get("authors", "")).strip(),
             summary=entry.get("summary", entry.get("description", "")).strip(),
             published=entry.get("published", entry.get("updated", "")),
             link=entry.get("link", "").strip()

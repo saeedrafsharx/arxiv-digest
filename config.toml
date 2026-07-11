@@ -1,0 +1,3 @@
+# config.toml
+categories = ["q-bio.NC", "cond-mat.dis-nn"]
+keywords   = ["network", "connectome", "persistent homology"]
