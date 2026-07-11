@@ -1,3 +1,4 @@
+# src/arxiv_digest/config.py
 import tomllib
 
 def import_config():

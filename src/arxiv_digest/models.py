@@ -1,3 +1,5 @@
+# src/arxiv_digest/models.py
+
 from dataclasses import dataclass
 
 @dataclass

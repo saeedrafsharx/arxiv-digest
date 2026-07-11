@@ -19,3 +19,7 @@ conf = import_config()
 
 filtrd = filter_papers(parsd, conf['keywords'])
 print(len(filtrd))
+
+from rank import rank
+sortd=rank(filtrd,keywords=conf['keywords'])
+print(sortd)
