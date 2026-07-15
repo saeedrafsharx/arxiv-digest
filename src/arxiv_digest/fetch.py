@@ -12,7 +12,7 @@ def fetch(search_query: str, max_results: int = 10) -> str:
 resp = fetch("autism")
 from parse import parse_xml
 parsd = parse_xml(resp)
-print(parsd[1].title)
+print(parsd[0])
 from filter import filter_papers
 from config import import_config
 conf = import_config()
@@ -23,3 +23,8 @@ print(len(filtrd))
 from rank import rank
 sortd=rank(filtrd,keywords=conf['keywords'])
 print(sortd)
+
+from store import save_seen, load_seen
+
+save_seen("seen.json", sortd)
+print(load_seen("seen.json"))

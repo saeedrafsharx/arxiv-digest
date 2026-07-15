@@ -9,6 +9,7 @@ def parse_xml(raw_xml: str) -> List[Paper]:
 
     for entry in feed.entries:
         paper = Paper(
+            id=entry.get("id", "").strip(),
             title=entry.get("title", "").strip(),
             authors=str(entry.get("authors", "")).strip(),
             summary=entry.get("summary", entry.get("description", "")).strip(),
