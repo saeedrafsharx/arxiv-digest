@@ -8,3 +8,7 @@ dependencies = [
     "feedparser>=6.0.12",
     "requests>=2.34.2",
 ]
+[
+project.scripts
+]
+arxd = "arxiv_digest.cli:main"
