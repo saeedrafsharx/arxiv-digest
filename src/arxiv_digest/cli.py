@@ -6,6 +6,7 @@ from parse import parse_xml
 from rank import rank
 from store import save_seen, load_seen
 from pathlib import Path
+from render import render_compact, render_expanded, render_markdown
 
 def build_parser():
     parser = argparse.ArgumentParser(
@@ -59,8 +60,13 @@ def main():
     if args.new:
         if file_path.is_file():
             ids = load_seen(file_path)
-            result = drop_seen(ranked, ids)
+            ranked = drop_seen(ranked, ids)
         else:
             print("No previous search history found!")    
-
-    
+            pass
+    if args.markdown:
+        render_markdown(papers=ranked, path="results.md")
+    elif args.expand:
+        render_expanded(papers=ranked)
+    else:
+        render_compact(papers=ranked)
