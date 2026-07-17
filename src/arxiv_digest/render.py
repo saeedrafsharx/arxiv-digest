@@ -3,9 +3,10 @@ from rich.table import Table
 from rich.console import Console
 
 console = Console()
-table = Table(title="Search result")
 
 def render_compact(papers):
+
+    table = Table(title="Search result")
 
     table.add_column("ID")
     table.add_column("Title")
@@ -19,6 +20,8 @@ def render_compact(papers):
 
 def render_expanded(papers):
     
+    table = Table(title="Search result")
+
     table.add_column("ID")
     table.add_column("Title")
     table.add_column("Authors")
@@ -32,6 +35,8 @@ def render_expanded(papers):
     console.print(table)
 
 def render_summary(papers):
+
+    table = Table(title="Search result")
 
     table.add_column("ID")
     table.add_column("Title")

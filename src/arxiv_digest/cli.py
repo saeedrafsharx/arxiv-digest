@@ -1,12 +1,13 @@
 # src/arxiv_digest/cli.py
 import argparse
-from fetch import fetch
-from filter import filter_papers, drop_seen
-from parse import parse_xml
-from rank import rank
-from store import save_seen, load_seen
+from arxiv_digest.fetch import fetch
+from arxiv_digest.filter import filter_papers, drop_seen
+from arxiv_digest.parse import parse_xml
+from arxiv_digest.rank import rank
+from arxiv_digest.store import save_seen, load_seen
 from pathlib import Path
-from render import render_compact, render_expanded, render_markdown
+from arxiv_digest.render import render_compact, render_expanded, render_markdown, render_summary
+from arxiv_digest.summarize import summarize_papers
 
 def build_parser():
     parser = argparse.ArgumentParser(
@@ -48,9 +49,9 @@ def build_parser():
 
     return parser
 
-def main():
+def main(args=None):
 
-    args = build_parser().parse_args()
+    args = build_parser().parse_args(args)
     file_path = Path("search_history.json")
 
     inital = fetch(search_query=args.query, max_results=args.max)
@@ -70,5 +71,11 @@ def main():
         render_markdown(papers=ranked, path="results.md")
     elif args.expand:
         render_expanded(papers=ranked)
+    elif args.summarize:
+        summarized = summarize_papers(ranked)
+        render_summary(papers=summarized)
     else:
         render_compact(papers=ranked)
+
+if __name__ == "__main__":
+    main()

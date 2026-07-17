@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pUKE1zhdOnMWaT3ruFuNnWWqqgs</id>
+  <title>arXiv Query: search_query=all:nicotine&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-07-17T20:35:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:nicotine&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>58</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1509.01687v1</id>
+    <title>Single Molecule Transistor based Nanopore for the detection of Nicotine</title>
+    <updated>2015-09-05T10:21:46Z</updated>
+    <link href="https://arxiv.org/abs/1509.01687v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.01687v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A nanopore based detection methodology was proposed and investigated for the detection of Nicotine. This technique uses a Single Molecular Transistor (SMT) working asa nanopore operational in the Coulomb Blockade regime. Whenthe Nicotine molecule is pulled through the nanopore area surrounded by the Source(S), Drain(D) and Gate electrodes, the charge stability diagram can detect the presence of the molecule and is unique for a specific molecular structure. Dueto the weak coupling between the different electrodes whichis set by the nanopore size, the molecular energy states stay almost unaffected by the electrostatic environment that can be realised from the charge stability diagram. Identification of different orientation and position of the Nicotine molecule within the nanopore area can be made from specific regions of overlap between different charge states on the stability diagram that could be used as an electronic fingerprint for detection. This method could be advantageous and useful to detect the presence of Nicotine in smoke which is usually performed using chemical chromatography techniques.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-05T10:21:46Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Journal of Applied Physics 116, 244307 (2014)</arxiv:journal_ref>
+    <author>
+      <name>S. J. Ray</name>
+    </author>
+    <arxiv:doi>10.1063/1.4904358</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4904358" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3474v2</id>
+    <title>Molecular adsorption study of nicotine and caffeine on the single-walled carbon nanotube from first principles</title>
+    <updated>2013-07-09T09:20:29Z</updated>
+    <link href="https://arxiv.org/abs/1206.3474v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3474v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using first-principles calculations, we investigate the electronic structures and binding properties of nicotine and caffeine adsorbed on single-walled carbon nanotubes to determine whether CNTs are appropriate for filtering or sensing nicotine and caffeine molecules. We find that caffeine adsorbs more strongly than nicotine. The different binding characteristics are discussed by analyzing the modification of the electronic structure of the molecule-adsorbed CNTs. We also calculate the quantum conductance of the CNTs in the presence of nicotine or caffeine adsorbates and demonstrate that the influence of caffeine is stronger than nicotineon the conductance of the host CNT.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-15T14:07:14Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Solid State Communications, v.167, pp.27 - 30 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Hyung-June Lee</name>
+    </author>
+    <author>
+      <name>Gunn Kim</name>
+    </author>
+    <author>
+      <name>Young-Kyun Kwon</name>
+    </author>
+    <arxiv:doi>10.1016/j.ssc.2013.06.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ssc.2013.06.001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.17570v1</id>
+    <title>Modeling Novel Oral Nicotine Use Among Adolescents</title>
+    <updated>2025-11-14T14:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2511.17570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.17570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Novel oral nicotine products, particularly nicotine pouches, have rapidly gained popularity among adolescents. Among U.S. high school students, nicotine pouch use hasdoubled since 2021, with 2.4% reporting current use in 2024. We analyzed Florida Youth Tobacco Survey data from 2022-2024 to assess prevalence trends and developed a grade-structured compartmental model to project future trajectories and evaluate intervention strategies. The model accurately captured observed trends across all high school grades and projected continued growth without intervention. We evaluated single and multi-parameter intervention strategies. Single-parameter interventions demonstrated limited effectiveness while multi-parameter strategies showed substantial effects. These findings underscore the need for comprehensive, multi-faceted interventions incorporating prevention education, cessation support, policy enforcement, and peer influence modification. Grade-specific targeting can enhance overall program effectiveness. School-based interventions should be implementedrapidly to address the accelerating epidemic of oral nicotine use among adolescents.</summary>
+    <category term="physics.soc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-14T14:07:33Z</published>
+    <arxiv:primary_category term="physics.soc-ph"/>
+    <author>
+      <name>Christopher Mitchell</name>
+    </author>
+    <author>
+      <name>Tracey Barnett</name>
+    </author>
+    <author>
+      <name>Meredith Newton</name>
+    </author>
+    <author>
+      <name>Erika Thompson</name>
+    </author>
+    <author>
+      <name>Melvin Livingston</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.14943v1</id>
+    <title>A computational insight of the improved nicotinebinding with ACE2-SARS-CoV-2 complex with its clinical impact</title>
+    <updated>2020-04-30T16:49:23Z</updated>
+    <link href="https://arxiv.org/abs/2004.14943v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.14943v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Smokers being witnessed with the mild adverse clinical symptoms of SARS-CoV-2, the in-silico study is intended to explore the effect of nicotine binding to the soluble angiotensin converting enzyme II (ACE2) receptor with or without SARS-CoV-2 binding. Nicotine established a stable interaction with the conserved amino acid residues: Asp382, Gly405, His378 and Tyr385 through His401 of the soluble ACE2 that seals its interaction with the INS1. Also, nicotine binding has significantly reduced the affinity score of ACE2 withINS1 to -12.6 kcal/mol (versus -15.7 kcal/mol without nicotine) and the interface area to 1933.6 square Angstrom (versus 2057.3 square Angstrom without nicotine). Nicotine exhibited a higher binding affinity score with ACE2-SARS-CoV-2 complex with -6.33 kcal/mol (Vs -5.24 kcal/mol without SARS-CoV-2) and a lowered inhibitory contant value of 22.95 micromolar (Vs 151.69 micromolar without SARS-CoV). Eventhough ACE2 is not a potential receptor for nicotine binding in the healthy people, in COVID19 patients, it may exhibit better binding affinity with the ACE2 receptor. In overall, nicotines strong preference for ACE2-SARS-CoV-2 complex might drasticallyreduce the SARS-CoV-2 virulence by intervening the ACE2 conserved residues interaction with the spike (S1) protein of SARS-CoV-2.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-30T16:49:23Z</published>
+    <arxiv:comment>11 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Selvaa Kumar C</name>
+    </author>
+    <author>
+      <name>Senthil Arun Kumar</name>
+    </author>
+    <author>
+      <name>Haiyan Wei</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.05515v2</id>
+    <title>Influence of nicotine and alcohol on sleep latency: the reward-attention circuit model</title>
+    <updated>2024-02-02T21:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1902.05515v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.05515v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We previously developed a neurocomputational model called the reward-attention circuit, which has been used to investigate the separate effects of nicotine and alcohol on attention focus. The model is based on known circuits linking midbrain dopaminergic neurons to the thalamocortical loop and is sufficiently versatile to capture diverse phenomena. In this work, we used the model to study the influence of both nicotine and alcohol on sleep latency (time to fall asleep). In line with findings from other studies, our simulations suggest that nicotine can have a stimulating effect that increases sleep latency, promoting wakefulness, and, in contrast, alcohol can have a sedating effect that induces sleep. Together, our results suggest insights into alterationsin mesothalamic dopamine activity and sleep. Also, they raise speculations about aspects of insomnia and low mesothalamic dopamine.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-14T17:50:48Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Karine Guimarães</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.02047v1</id>
+    <title>NICO-RAG: Multimodal Hypergraph Retrieval-Augmented Generation for Understanding the Nicotine Public Health Crisis</title>
+    <updated>2026-03-02T16:31:07Z</updated>
+    <link href="https://arxiv.org/abs/2603.02047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.02047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The nicotine addiction public health crisis continues to be pervasive. In this century alone, the tobacco industry has released and marketed new products in an aggressive effort to lure new and young customers for life. Such innovations and product development, namely flavored nicotineor tobacco such as nicotine pouches, have undone years of anti-tobacco campaign work. Past work is limited both in scope and in its ability to connect large-scale data points. Thus, we introduce the Nicotine Innovation Counter-Offensive (NICO) Dataset to provide public health researchers with over 200,000 multimodal samples, including images and text descriptions, on 55 tobacco and nicotine product brands. In addition, to provide public health researchers with factual connections across a large-scale dataset, we propose NICO-RAG, a retrieval-augmented generation (RAG) framework that can retrieve image features without incurring the high-cost of language models, as well as the added cost of processing image tokens with large-scale datasets such as NICO. At construction time, NICO-RAG organizes image- and text-extracted entities and relations into hypergraphs to produce as factual responses as possible. This joint multimodal knowledge representation enables NICO-RAG to retrieve images for query answering not only by visual similarity but also by the semantic similarity of image descriptions. Experimentals show that without needing to process additional tokens from images for over 100 questions, NICO-RAG performs comparably to the state-of-the-art RAG method adapted for images.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-02T16:31:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Manuel Serna-Aguilera</name>
+    </author>
+    <author>
+      <name>Raegan Anderes</name>
+    </author>
+    <author>
+      <name>Page Dobbs</name>
+    </author>
+    <author>
+      <name>Khoa Luu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0089v1</id>
+    <title>A physical model of nicotinic ACh receptor kinetics</title>
+    <updated>2008-12-31T12:14:05Z</updated>
+    <link href="https://arxiv.org/abs/0901.0089v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.0089v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a new approach to nicotinic receptor kinetics and a new model explaining random variabilitiesin the duration of open events. The model gives new interpretation on brief and long receptor openings and predicts (for two identical binding sites) the presence of three components in the open time distribution: two brief and a long. We also present the physical model of the receptor block. This picture naturally and universally explains receptor desensitization, the phenomenon of central importance in cellular signaling. The model is based on single-channel experiments concerning the effects of hydrocortisone (HC) on the kinetics of control wild-type (WT) and mutated alphaD200Q mouse nicotinic acetylcholine receptors (nAChRs), expressed in HEK 293 cells. The appendix contains an original result from probability renewal theory: a derivation of the probability distribution function for the duration of a process performed by two independent servers.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.CB" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-12-31T12:14:05Z</published>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <author>
+      <name>Ewa Nurowska</name>
+    </author>
+    <author>
+      <name>Mykola Bratiichuk</name>
+    </author>
+    <author>
+      <name>Beata Dworakowska</name>
+    </author>
+    <author>
+      <name>Roman J. Nowak</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.06330v1</id>
+    <title>Generative artificial intelligence-enabled dynamic detection of nicotine-related circuits</title>
+    <updated>2022-12-13T02:21:22Z</updated>
+    <link href="https://arxiv.org/abs/2212.06330v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.06330v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The identification of addiction-related circuits is critical for explaining addiction processes and developing addiction treatments. And models of functional addiction circuits developed from functional imaging are an effective tool for discovering and verifying addiction circuits. However, analyzing functional imaging data of addiction and detecting functional addiction circuits still have challenges. We have developed a data-driven and end-to-end generative artificial intelligence(AI) framework to address these difficulties. The framework integrates dynamic brain network modeling and novel network architecture networks architecture, including temporal graph Transformer and contrastive learning modules. A complete workflow is formed by our generative AI framework: the functional imaging data, from neurobiological experiments, and computational modeling, to end-to-end neural networks, is transformed into dynamic nicotine addiction-related circuits. It enables the detection of addiction-related brain circuits with dynamic properties and reveals the underlying mechanisms of addiction.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-13T02:21:22Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Changwei Gong</name>
+    </author>
+    <author>
+      <name>Changhong Jing</name>
+    </author>
+    <author>
+      <name>Ye Li</name>
+    </author>
+    <author>
+      <name>Xinan Liu</name>
+    </author>
+    <author>
+      <name>Zuxin Chen</name>
+    </author>
+    <author>
+      <name>Shuqiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/q-bio/0509018v2</id>
+    <title>A Hydrophobic Gate in an Ion Channel: The ClosedState of the Nicotinic Acetylcholine Receptor</title>
+    <updated>2006-06-15T05:27:05Z</updated>
+    <link href="https://arxiv.org/abs/q-bio/0509018v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/q-bio/0509018v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The nicotinic acetylcholine receptor (nAChR)is the prototypic member of the `Cys-loop' superfamily of ligand-gated ion channels which mediate synaptic neurotransmission, and whose other members include receptors for glycine, gamma-aminobutyric acid, and serotonin. Cryo-electron microscopy has yielded a three dimensional structure of the nAChR in its closed state. However, the exact nature and location of the channel gate remains uncertain. Although the transmembrane pore is constricted close to its center, it is not completely occluded. Rather, the pore has a central hydrophobic zone of radius about 3 A. Model calculations suggest thatsuch a constriction may form a hydrophobic gate, preventingmovement of ions through a channel. We present a detailed and quantitative simulation study of the hydrophobic gating model of the nicotinic receptor, in order to fully evaluate this hypothesis. We demonstrate that the hydrophobic constriction of the nAChR pore indeed forms a closed gate. Potentialof mean force (PMF) calculations reveal that the constriction presents a barrier of height ca. 10 kT to the permeation of sodium ions, placing an upper bound on the closed channelconductance of 0.3 pS. Thus, a 3 A radius hydrophobic pore can form a functional barrier to the permeation of a 1 A radius Na+ ion. Using a united atom force field for the proteininstead of an all atom one retains the qualitative featuresbut results in differing conductances, showing that the PMFis sensitive to the detailed molecular interactions.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-15T00:17:46Z</published>
+    <arxiv:comment>Accepted by Physical Biology; includes asupplement and a supplementary mpeg movie can be found at http://sbcb.bioch.ox.ac.uk/oliver/download/Movies/watergate.mpg</arxiv:comment>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <arxiv:journal_ref>Physical Biology, 3(2):147-159, 2006</arxiv:journal_ref>
+    <author>
+      <name>Oliver Beckstein</name>
+    </author>
+    <author>
+      <name>Mark S. P. Sansom</name>
+    </author>
+    <arxiv:doi>10.1088/1478-3975/3/2/007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1478-3975/3/2/007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.1417v1</id>
+    <title>Opening a hydrophobic gate: the nicotinic acetylcholine receptor as an example</title>
+    <updated>2009-02-09T11:42:51Z</updated>
+    <link href="https://arxiv.org/abs/0902.1417v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.1417v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  To what extent must a hydrophobic gate expand for the channel to count as open? We address this questionusing the nicotinic acetylcholine receptor (nAChR) as the exemplar. The nAChR is an integral membrane protein which forms a cation selective channel gated by neurotransmitter binding to its extracellular domain. A hydrophobic gating model has been proposed for the nAChR, whereby the pore is incompletely occluded in the closed state channel, with a narrow hydrophobic central gate region which presents an energetic barrier to ion permeation. The nAChR pore is lined by a parallel bundle of five M2 alpha-helices, with the gate formed by three rings of hydrophobic sidechains (9', 13', and 17' of M2). A number of models have been proposed to describe the nature of the conformational change underlying the closed to open transition of the nAChR. These models involve different degrees of M2 helix displacement, rotation, and/or kinking. In this study, we use a simple pore expansion method (previously used to model opening of potassium channels) to generate a series of progressively wider models of the nAChR transmembrane domain. Continuum electrostatics calculations are used to assess the change in the barrier height of the hydrophobic gate as a function of pore expansion. The results suggest that an increase in radius of Delta r ~ 1.5 angstrom is sufficient to functionally open the pore without, for example, a requirement for rotation of the M2 helices. This is evaluated in the context of current mutational and structural data on the nAChR and its homologues.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-09T11:42:51Z</published>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Sarah E. Rogers</name>
+    </author>
+    <author>
+      <name>Kaihsu Tai</name>
+    </author>
+    <author>
+      <name>Oliver Beckstein</name>
+    </author>
+    <author>
+      <name>Mark S. P. Sansom</name>
+    </author>
+  </entry>
+</feed>

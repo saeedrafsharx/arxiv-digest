@@ -1,0 +1,2 @@
+[console_scripts]
+arxd = arxiv_digest.cli:main

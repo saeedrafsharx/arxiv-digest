@@ -1,5 +1,5 @@
 import feedparser
-from models import Paper
+from .models import Paper
 from typing import List
 
 def parse_xml(raw_xml: str) -> List[Paper]:

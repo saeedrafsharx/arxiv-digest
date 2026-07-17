@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: arxiv-digest
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.13
+Description-Content-Type: text/markdown
+Requires-Dist: feedparser>=6.0.12
+Requires-Dist: ollama>=0.6.2
+Requires-Dist: requests>=2.34.2
+Requires-Dist: rich>=15.0.0

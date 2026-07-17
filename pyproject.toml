@@ -1,4 +1,8 @@
 # pyproject.toml
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "arxiv-digest"
 version = "0.1.0"
@@ -14,3 +18,11 @@ dependencies = [
 
 [project.scripts]
 arxd = "arxiv_digest.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
