@@ -57,6 +57,7 @@ def main():
     parsed = parse_xml(raw_xml=inital)
     filtered = filter_papers(papers=parsed, keywords=args.query)
     ranked = rank(papers=filtered, keywords=args.query)
+
     if args.new:
         if file_path.is_file():
             ids = load_seen(file_path)
@@ -64,6 +65,7 @@ def main():
         else:
             print("No previous search history found!")    
             pass
+    
     if args.markdown:
         render_markdown(papers=ranked, path="results.md")
     elif args.expand:

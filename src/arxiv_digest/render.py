@@ -31,6 +31,19 @@ def render_expanded(papers):
                        paper.published, paper.summary, paper.link)
     console.print(table)
 
+def render_summary(papers):
+
+    table.add_column("ID")
+    table.add_column("Title")
+    table.add_column("Authors")
+    table.add_column("Published")
+    table.add_column("Summary")
+
+    for paper in papers:
+        table.add_row(paper.id, paper.title, paper.authors,
+                       paper.published, paper.ai_summary)
+    console.print(table)
+
 def render_markdown(papers, path) -> None:
     md = "# Results\n\n"
     md += "| ID | Title | Authors | Published | Abstract | Link |\n"
