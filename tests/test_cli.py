@@ -4,7 +4,7 @@ import pytest
 
 def test_cli_model(capsys):
 
-    main(["nicotine"])
+    main(["search","nicotine"])
 
     captured = capsys.readouterr()
 

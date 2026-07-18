@@ -50,20 +50,23 @@ def render_summary(papers):
     console.print(table)
 
 def render_markdown(papers, path) -> None:
-    md = "# Results\n\n"
-    md += "| ID | Title | Authors | Published | Abstract | Link |\n"
-    md += "|----|-------|---------|-----------|----------|------|\n"
+    md = "# 📚 arXiv Digest\n\n"
+    md += f"Found **{len(papers)} papers**.\n\n"
 
-    for paper in papers:
-        md += (
-            f"| {paper.id} "
-            f"| {paper.title} "
-            f"| {paper.authors} "
-            f"| {paper.published} "
-            f"| {paper.summary} "
-            f"| {paper.link} "
-        )
+    for i, paper in enumerate(papers, 1):
+        md += f"## {i}. {paper.title}\n\n"
+
+        md += f"**Authors:** {paper.authors}\n\n"
+        md += f"**Published:** {paper.published}\n\n"
+
+        md += "### Abstract\n\n"
+        md += f"{paper.summary}\n\n"
+
+        md += f"🔗 [Paper Link]({paper.link})\n\n"
+
+        md += "---\n\n"
 
     with open(path, "w") as f:
         f.write(md)
-    console.print(f"Results md file saved at: {path}")
+
+    console.print(f"Results file saved at: {path}")

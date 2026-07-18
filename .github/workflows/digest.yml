@@ -1,0 +1,45 @@
+name: Generate arXiv Digest
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Every day at 08:00 UTC
+    - cron: "0 8 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Set up Python
+        run: uv python install
+
+      - name: Install dependencies
+        run: uv sync
+
+      - name: Generate digest
+        run: |
+          uv run arxiv-digest search "machine learning" \
+            --markdown
+
+      - name: Commit updated digest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add results.md
+
+          git diff --cached --quiet || \
+          git commit -m "Update arXiv digest"
+
+          git push
