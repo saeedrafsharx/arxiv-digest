@@ -6,7 +6,7 @@ console = Console()
 
 def render_compact(papers):
 
-    table = Table(title="Search result")
+    table = Table(title="Search result", show_lines=True, highlight=True)
 
     table.add_column("ID")
     table.add_column("Title")
@@ -16,6 +16,7 @@ def render_compact(papers):
     for paper in papers:
         table.add_row(paper.id, paper.title, paper.authors,
                        paper.published)
+        table.show_lines
     console.print(table)
 
 def render_expanded(papers):

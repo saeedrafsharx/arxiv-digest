@@ -35,5 +35,5 @@ def test_render_markdown(tmp_path):
 
     content = output_file.read_text()
 
-    assert "Title" in content
+    assert "Abstract" in content
 

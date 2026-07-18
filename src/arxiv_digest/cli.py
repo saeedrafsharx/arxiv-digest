@@ -43,7 +43,8 @@ def build_parser():
     )
     search.add_argument(
         "--max",
-        help="Maximum number of results to fetch"
+        help="Maximum number of results to fetch",
+        default=10
     )
     search.add_argument(
         "--since",
@@ -75,7 +76,7 @@ def main(args=None):
 
         if args.command == "search":
 
-            inital = fetch(search_query=args.query,max_results=10)
+            inital = fetch(search_query=args.query,max_results=args.max)
             
             parsed = parse_xml(raw_xml=inital)
 
