@@ -29,7 +29,7 @@ jobs:
 
       - name: Generate digest
         run: |
-          uv run arxiv-digest search "machine learning" \
+          uv run arxd search "machine learning" \
             --markdown
 
       - name: Commit updated digest
