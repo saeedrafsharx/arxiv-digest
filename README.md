@@ -2,6 +2,15 @@
 
 Turn the latest arXiv papers into a clean, readable digest you can scan in seconds.
 
+## Today's arXiv Digest
+
+<!-- DIGEST_START -->
+
+_No digest yet._
+
+<!-- DIGEST_END -->
+
+
 ## Example output
 
 ![Example output](./docs/demo.gif)

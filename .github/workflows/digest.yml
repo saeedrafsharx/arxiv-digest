@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Every day at 08:00 UTC
     - cron: "0 8 * * *"
 
 permissions:
@@ -29,17 +28,38 @@ jobs:
 
       - name: Generate digest
         run: |
-          uv run arxd search "machine learning" \
-            --markdown "results.md"
+          uv run arxd search "neural network" --markdown results.md
+
+      - name: Update README
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          import re
+
+          readme = Path("README.md")
+          digest = Path("results.md")
+
+          content = readme.read_text(encoding="utf-8")
+          new_digest = digest.read_text(encoding="utf-8")
+
+          updated = re.sub(
+              r"<!-- DIGEST_START -->.*?<!-- DIGEST_END -->",
+              f"<!-- DIGEST_START -->\n\n{new_digest}\n\n<!-- DIGEST_END -->",
+              content,
+              flags=re.DOTALL,
+          )
+
+          readme.write_text(updated, encoding="utf-8")
+          PY
 
       - name: Commit updated digest
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add results.md
+          git add README.md results.md
 
           git diff --cached --quiet || \
-          git commit -m "Update arXiv digest"
+          git commit -m "Update daily arXiv digest"
 
           git push
