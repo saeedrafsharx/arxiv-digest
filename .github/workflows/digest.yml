@@ -30,7 +30,7 @@ jobs:
       - name: Generate digest
         run: |
           uv run arxd search "machine learning" \
-            --markdown "results.txt"
+            --markdown "results.md"
 
       - name: Commit updated digest
         run: |
