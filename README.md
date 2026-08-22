@@ -94,21 +94,7 @@ This survey presents the most relevant neural network models of autism spectrum 
 
 ---
 
-## 7. Midterm Status Report of the ILC Technology Network Activities
-
-**Authors:** ILC Technology Network
-
-**Published:** 2026-03-01T16:22:42Z
-
-### Abstract
-
-The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities.
-
-🔗 [Paper Link](https://arxiv.org/abs/2603.01172v1)
-
----
-
-## 8. How transferable are features in deep neural networks?
+## 7. How transferable are features in deep neural networks?
 
 **Authors:** Jason Yosinski, Jeff Clune, Yoshua Bengio, Hod Lipson
 
@@ -119,6 +105,20 @@ The ILC Technology Network (ITN) was established in 2022 by the ILC Internationa
 Many deep neural networks trained on natural images exhibit a curious phenomenon in common: on the first layer they learn features similar to Gabor filters and color blobs. Such first-layer features appear not to be specific to a particular dataset or task, but general in that they are applicable to many datasets and tasks. Features must eventually transition from general to specific by the last layer of the network, but this transition has not been studied extensively. In this paper we experimentally quantify the generality versus specificity of neurons in each layer of a deep convolutional neural network and report a few surprising results. Transferability is negatively affected by two distinct issues: (1) the specialization of higher layer neurons to their original task at the expense of performance on the target task, which was expected, and (2) optimization difficulties related to splitting networks between co-adapted neurons, which was not expected. In an example network trained on ImageNet, we demonstrate that either of these two issues may dominate, depending on whether features are transferred from the bottom, middle, or top of the network. We also document that the transferability of features decreases as the distance between the base task and target task increases, but that transferring features even from distant tasks can be better than using random features. A final surprising result is that initializing a network with transferred features from almost any number of layers can produce a boost to generalization that lingers even after fine-tuning to the target dataset.
 
 🔗 [Paper Link](https://arxiv.org/abs/1411.1792v1)
+
+---
+
+## 8. Midterm Status Report of the ILC Technology Network Activities
+
+**Authors:** ILC Technology Network
+
+**Published:** 2026-03-01T16:22:42Z
+
+### Abstract
+
+The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities.
+
+🔗 [Paper Link](https://arxiv.org/abs/2603.01172v1)
 
 ---
 
