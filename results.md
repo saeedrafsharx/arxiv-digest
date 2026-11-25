@@ -100,21 +100,7 @@ Many deep neural networks trained on natural images exhibit a curious phenomenon
 
 ---
 
-## 8. Midterm Status Report of the ILC Technology Network Activities
-
-**Authors:** ILC Technology Network
-
-**Published:** 2026-03-01T16:22:42Z
-
-### Abstract
-
-The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities.
-
-🔗 [Paper Link](https://arxiv.org/abs/2603.01172v1)
-
----
-
-## 9. Parallel Neural Networks in Golang
+## 8. Parallel Neural Networks in Golang
 
 **Authors:** Daniela Kalwarowskyj, Erich Schikuta
 
@@ -125,6 +111,20 @@ The ILC Technology Network (ITN) was established in 2022 by the ILC Internationa
 This paper describes the design and implementation of parallel neural networks (PNNs) with the novel programming language Golang. We follow in our approach the classical Single-Program Multiple-Data (SPMD) model where a PNN is composed of several sequential neural networks, which are trained with a proportional share of the training dataset. We used for this purpose the MNIST dataset, which contains binary images of handwritten digits. Our analysis focusses on different activation functions and optimizations in the form of stochastic gradients and initialization of weights and biases. We conduct a thorough performance analysis, where network configurations and different performance factors are analyzed and interpreted. Golang and its inherent parallelization support proved very well for parallel neural network simulation by considerable decreased processing times compared to sequential variants.
 
 🔗 [Paper Link](https://arxiv.org/abs/2304.09590v1)
+
+---
+
+## 9. Midterm Status Report of the ILC Technology Network Activities
+
+**Authors:** ILC Technology Network
+
+**Published:** 2026-03-01T16:22:42Z
+
+### Abstract
+
+The ILC Technology Network (ITN) was established in 2022 by the ILC International Development Team, a subcommittee of the International Committee for Future Accelerators, to advance engineering studies toward the realisation of the International Linear Collider (ILC). While the ITN work packages focus on engineering activities for the ILC, their topics are also relevant to a broad range of accelerator applications in particle physics and beyond. These work packages are being carried out now by laboratories in Asia and Europe in close collaboration. This report summarises the current status of the ITN activities.
+
+🔗 [Paper Link](https://arxiv.org/abs/2603.01172v1)
 
 ---
 
